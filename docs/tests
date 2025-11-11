@@ -1,0 +1,33 @@
+# Test Data for CleanCity Application
+
+## 📋 **Document Information**
+
+**Document Version:** 1.0  
+**Date:** [11/11/2025]  
+**Project:** CleanCity - Waste Pickup Scheduler  
+**Prepared For:** QA Testing Teams 
+
+Defects Log
+
+
+| ---------- | ----------------- | ------------------------------------------------ | ---------------------------------------- | 
+Field| Summary| Description| Severity| Priority
+D005 |Allows scheduling on past date| When you select a past date, the system successfully creates a request| Critical |High|
+D006| Double booking| The system successfully creates multiple requests of same nature on a single date| Critical| High|
+D007| Ineffective filter function| When you filter, the system is giving a mix of unfiltered statuses|Minor|Low|
+D008| Allows status update to 'Completed' even for past date requests| Admin is able to update status of a just created request on a past date to complete when clearly no pick up has been done| Critical|High|
+D009| Allows Admin to create requests| One is able to create a pickup request even when logged in as an admin|Major| Medium|
+D010| Accepts No-Date Requests| One is able to create a successful request without a pickup date| Critical|	High|
+D011| Invalid input acceptance| When you enter numbers under 'Full Name', your account is created successfully| Major| Medium|
+D012| Feedback not reflected|	When you submit feedback, it doesn't reflect anywhere on the feedback page|	Major| Medium|
+D013| Multiple feedback on same Request Id accepted| The system successfully accepts multiple feedback on same 'Request Id'| Minor| Low|
+D014| No-name accepted|	The system creates a request even when you only enter numbers under 'Full Name' as long as you have two characters|	Critical|	High|
+D015| Can't edit request|	There is no option for user to edit a request|	Major|	Medium|
+D016|	No specific location|	The system should have an option for user to give more details on their specific location|	Critical|	High|
+D017|	Can't cancel request|	There is no option for user to cancel a request| Major|	Medium|
+
+
+
+
+
+
